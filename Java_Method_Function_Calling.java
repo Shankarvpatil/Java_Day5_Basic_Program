@@ -2,14 +2,13 @@ package com.Bridglab.programs;
 
 import com.bridgebaz.utility.Utility;
 
-public class FlipCoin {
+public class HarmonicNumber {
 
 	public static void main(String[] args) {
-		
 		Utility utility = new Utility();
-		System.out.print("Enter the numer of coin toss : ");
-		int noOfFlips = utility.getIntValue();
-		Utility.FlipCoinPercent(noOfFlips);
-		
+		System.out.print("Enter the number to check Harmonic number : ");
+		int Number = utility.getIntValue();
+		utility.getHarmonicNumber(Number);;
 	}
+
 }
